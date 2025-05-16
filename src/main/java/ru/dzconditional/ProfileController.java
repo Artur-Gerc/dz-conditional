@@ -14,7 +14,7 @@ public class ProfileController {
         this.systemProfile = systemProfile;
     }
 
-    @GetMapping("profile")
+    @GetMapping
     public String profile() {
         return systemProfile.getProfile();
     }
